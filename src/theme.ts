@@ -1,13 +1,12 @@
 import { createTheme, responsiveFontSizes } from '@mui/material/styles';
-import { grey, yellow } from '@mui/material/colors';
 
 let theme = createTheme({
   palette: {
     primary: {
-      main: grey[500],
+      main: "#232323",
     },
     secondary: {
-      main: yellow[500],
+      main: "#4f8e3e",
     },
   },
   typography: {
